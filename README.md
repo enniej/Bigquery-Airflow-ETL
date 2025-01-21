@@ -97,5 +97,5 @@ Successful execution of ETL tasks in Airflow:
 ### Local Development Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/telco-customer-etl-pipeline.git
-cd telco-customer-etl-pipeline
+git clone https://github.com/YourActualGitHubUsername/Bigquery-Airflow-ETL.git
+cd Bigquery-Airflow-ETL
