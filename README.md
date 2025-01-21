@@ -53,47 +53,38 @@ Additional computed fields:
 * TotalCharges
 * Churn status
 
-  [Previous sections remain the same until Setup and Installation...]
-
-## Pipeline Visualization
+  ## Pipeline Visualization
 
 ### 1. BigQuery Schema and Data Structure
 The main table schema in BigQuery shows the customer data structure:
 
-![BigQuery Schema](path_to_schema_image.png)
+![BigQuery Schema](images/bigquery_schema.png)
 *BigQuery main table schema showing customer attributes*
 
 ### 2. Infrastructure Setup
 Our pipeline runs on containerized infrastructure using Docker:
 
-![Docker Containers](path_to_docker_image.png)
+![Docker Containers](images/docker_infrastructure.png)
 *Docker container setup showing Airflow components and dependencies*
 
 ### 3. Airflow DAG Overview
 The pipeline is orchestrated through Airflow DAGs with daily scheduling:
 
-![Airflow DAGs](path_to_airflow_dags_image.png)
+![Airflow DAGs](images/airflow_dashboard.png)
 *Airflow DAG interface showing the ETL pipeline schedule and status*
 
 ### 4. Data Processing and Transformation
 Example of processed customer data with segmentation:
 
-![Processed Data](path_to_processed_data_image.png)
+![Processed Data Demographics](images/processed_customer_data.png)
+![Processed Data Payment Info](images/processed_customer_data%20(2).png)
 *BigQuery processed customer data showing segmentation and additional metrics*
 
 ### 5. ETL Task Execution
 Successful execution of ETL tasks in Airflow:
 
-![Task Execution](path_to_task_execution_image.png)
+![Task Execution](images/airflow_task_status.png)
 *Airflow task execution status showing successful pipeline run*
-
-### 6. Data Quality Monitoring
-Sample query results showing data quality checks:
-
-![Data Quality](path_to_data_quality_image.png)
-*BigQuery query results demonstrating data quality validation*
-
-[Continue with the rest of your README sections...]
 
 ## Setup and Installation
 
