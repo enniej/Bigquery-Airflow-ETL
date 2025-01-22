@@ -1,7 +1,8 @@
 # Telco Customer ETL Pipeline
 A robust ETL (Extract, Transform, Load) pipeline that processes telecom customer data using Apache Airflow for orchestration and Google BigQuery for data warehousing. The pipeline includes customer segmentation, automated data quality checks, and daily scheduled updates.
 
-![image](https://github.com/user-attachments/assets/5c6477d7-f5b4-45c6-aacf-194f89c95bcc)
+![image](https://github.com/user-attachments/assets/34b40a10-6c5d-453d-8e35-e0651d8d5536)
+
 
 ## Overview
 An automated ETL pipeline that processes telecommunications customer data, implementing customer segmentation and data quality checks. Built with Apache Airflow for workflow orchestration and Google BigQuery for data warehousing, this pipeline handles customer demographic information, service subscriptions, and payment analytics.
